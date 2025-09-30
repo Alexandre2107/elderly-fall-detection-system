@@ -1,0 +1,42 @@
+RELATÓRIO DETALHADO - SISTEMA DE DETECÇÃO DE QUEDAS
+============================================================
+Data/Hora: 30/09/2025 18:07:44
+Arquivo fonte: fall_detection_results_20250930_173659.csv
+
+RESUMO GERAL:
+Total de vídeos: 30
+Quedas detectadas: 24
+Taxa de sucesso: 80.0%
+
+DETALHES POR VÍDEO:
+------------------------------------------------------------
+fall-01-cam0.mp4: ✅ DETECTADO (em 4.9s)
+fall-02-cam0.mp4: ✅ DETECTADO (em 3.2s)
+fall-03-cam0.mp4: ✅ DETECTADO (em 1.0s)
+fall-04-cam0.mp4: ✅ DETECTADO (em 2.5s)
+fall-05-cam0.mp4: ✅ DETECTADO (em 1.0s)
+fall-06-cam0.mp4: ✅ DETECTADO (em 2.3s)
+fall-07-cam0.mp4: ✅ DETECTADO (em 4.7s)
+fall-08-cam0.mp4: ✅ DETECTADO (em 3.0s)
+fall-09-cam0.mp4: ✅ DETECTADO (em 5.8s)
+fall-10-cam0.mp4: ✅ DETECTADO (em 2.8s)
+fall-11-cam0.mp4: ✅ DETECTADO (em 3.8s)
+fall-12-cam0.mp4: ✅ DETECTADO (em 2.9s)
+fall-13-cam0.mp4: ❌ NÃO DETECTADO
+fall-14-cam0.mp4: ❌ NÃO DETECTADO
+fall-15-cam0.mp4: ✅ DETECTADO (em 2.4s)
+fall-16-cam0.mp4: ✅ DETECTADO (em 1.8s)
+fall-17-cam0.mp4: ✅ DETECTADO (em 3.2s)
+fall-18-cam0.mp4: ✅ DETECTADO (em 1.8s)
+fall-19-cam0.mp4: ✅ DETECTADO (em 2.7s)
+fall-20-cam0.mp4: ❌ NÃO DETECTADO
+fall-21-cam0.mp4: ❌ NÃO DETECTADO
+fall-22-cam0.mp4: ✅ DETECTADO (em 1.7s)
+fall-23-cam0.mp4: ❌ NÃO DETECTADO
+fall-24-cam0.mp4: ✅ DETECTADO (em 1.7s)
+fall-25-cam0.mp4: ❌ NÃO DETECTADO
+fall-26-cam0.mp4: ✅ DETECTADO (em 2.0s)
+fall-27-cam0.mp4: ✅ DETECTADO (em 1.2s)
+fall-28-cam0.mp4: ✅ DETECTADO (em 2.2s)
+fall-29-cam0.mp4: ✅ DETECTADO (em 2.1s)
+fall-30-cam0.mp4: ✅ DETECTADO (em 2.3s)

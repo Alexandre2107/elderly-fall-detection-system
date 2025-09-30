@@ -1,0 +1,90 @@
+RELATÓRIO COMPLETO DE PRECISÃO - SISTEMA DE DETECÇÃO DE QUEDAS
+======================================================================
+Data/Hora: 30/09/2025 18:05:43
+
+RESUMO EXECUTIVO:
+Total de vídeos testados: 70
+Vídeos de quedas reais: 30
+Vídeos ADL (atividades normais): 40
+Acurácia geral: 84.3%
+Sensibilidade: 80.0%
+Especificidade: 87.5%
+
+MATRIZ DE CONFUSÃO:
+Verdadeiros Positivos: 24
+Verdadeiros Negativos: 35
+Falsos Positivos: 5
+Falsos Negativos: 6
+
+DETALHES POR VÍDEO:
+----------------------------------------------------------------------
+fall-01-cam0.mp4: QUEDA | Detectado: SIM (em 4.9s) | ✅ TP
+fall-02-cam0.mp4: QUEDA | Detectado: SIM (em 3.2s) | ✅ TP
+fall-03-cam0.mp4: QUEDA | Detectado: SIM (em 1.0s) | ✅ TP
+fall-04-cam0.mp4: QUEDA | Detectado: SIM (em 2.5s) | ✅ TP
+fall-05-cam0.mp4: QUEDA | Detectado: SIM (em 1.0s) | ✅ TP
+fall-06-cam0.mp4: QUEDA | Detectado: SIM (em 2.3s) | ✅ TP
+fall-07-cam0.mp4: QUEDA | Detectado: SIM (em 4.7s) | ✅ TP
+fall-08-cam0.mp4: QUEDA | Detectado: SIM (em 3.0s) | ✅ TP
+fall-09-cam0.mp4: QUEDA | Detectado: SIM (em 5.8s) | ✅ TP
+fall-10-cam0.mp4: QUEDA | Detectado: SIM (em 2.8s) | ✅ TP
+fall-11-cam0.mp4: QUEDA | Detectado: SIM (em 3.8s) | ✅ TP
+fall-12-cam0.mp4: QUEDA | Detectado: SIM (em 2.9s) | ✅ TP
+fall-13-cam0.mp4: QUEDA | Detectado: NÃO | ❌ FN
+fall-14-cam0.mp4: QUEDA | Detectado: NÃO | ❌ FN
+fall-15-cam0.mp4: QUEDA | Detectado: SIM (em 2.4s) | ✅ TP
+fall-16-cam0.mp4: QUEDA | Detectado: SIM (em 1.8s) | ✅ TP
+fall-17-cam0.mp4: QUEDA | Detectado: SIM (em 3.2s) | ✅ TP
+fall-18-cam0.mp4: QUEDA | Detectado: SIM (em 1.8s) | ✅ TP
+fall-19-cam0.mp4: QUEDA | Detectado: SIM (em 2.7s) | ✅ TP
+fall-20-cam0.mp4: QUEDA | Detectado: NÃO | ❌ FN
+fall-21-cam0.mp4: QUEDA | Detectado: NÃO | ❌ FN
+fall-22-cam0.mp4: QUEDA | Detectado: SIM (em 1.7s) | ✅ TP
+fall-23-cam0.mp4: QUEDA | Detectado: NÃO | ❌ FN
+fall-24-cam0.mp4: QUEDA | Detectado: SIM (em 1.7s) | ✅ TP
+fall-25-cam0.mp4: QUEDA | Detectado: NÃO | ❌ FN
+fall-26-cam0.mp4: QUEDA | Detectado: SIM (em 2.0s) | ✅ TP
+fall-27-cam0.mp4: QUEDA | Detectado: SIM (em 1.2s) | ✅ TP
+fall-28-cam0.mp4: QUEDA | Detectado: SIM (em 2.2s) | ✅ TP
+fall-29-cam0.mp4: QUEDA | Detectado: SIM (em 2.1s) | ✅ TP
+fall-30-cam0.mp4: QUEDA | Detectado: SIM (em 2.3s) | ✅ TP
+adl-01-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-02-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-03-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-04-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-05-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-06-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-07-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-08-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-09-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-10-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-11-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-12-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-13-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-14-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-15-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-16-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-17-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-18-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-19-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-20-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-21-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-22-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-23-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-24-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-25-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-26-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-27-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-28-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-29-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-30-cam0.mp4: ADL | Detectado: SIM (em 12.5s) | ❌ FP
+adl-31-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-32-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-33-cam0.mp4: ADL | Detectado: SIM (em 6.7s) | ❌ FP
+adl-34-cam0.mp4: ADL | Detectado: SIM (em 6.4s) | ❌ FP
+adl-35-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-36-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-37-cam0.mp4: ADL | Detectado: NÃO | ✅ TN
+adl-38-cam0.mp4: ADL | Detectado: SIM (em 11.5s) | ❌ FP
+adl-39-cam0.mp4: ADL | Detectado: SIM (em 9.0s) | ❌ FP
+adl-40-cam0.mp4: ADL | Detectado: NÃO | ✅ TN

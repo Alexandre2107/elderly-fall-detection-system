@@ -1,0 +1,27 @@
+ANÁLISE COMPLETA DO SISTEMA DE DETECÇÃO DE QUEDAS EM AMBIENTE CONTROLADO
+================================================================================
+Data/Hora: 30/09/2025 18:42:39
+
+RESUMO EXECUTIVO:
+Total de vídeos testados: 70
+Vídeos de quedas reais: 30
+Vídeos de atividades normais (ADL): 40
+Acurácia geral: 97.1%
+Sensibilidade: 93.3%
+Especificidade: 100.0%
+
+MATRIZ DE CONFUSÃO:
+Verdadeiros Positivos (TP): 28
+Verdadeiros Negativos (TN): 40
+Falsos Positivos (FP): 0
+Falsos Negativos (FN): 2
+
+ANÁLISE DETALHADA:
+Taxa de Detecção de Quedas: 93.3%
+Taxa de Falsos Positivos: 0.0%
+Taxa de Falsos Negativos: 6.7%
+
+CONCLUSÕES:
+✅ Sistema apresenta EXCELENTE performance em ambiente controlado
+✅ Ausência total de falsos positivos - excelente especificidade
+✅ Excelente capacidade de detectar quedas reais

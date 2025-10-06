@@ -216,13 +216,14 @@ class CompletePrecisionAnalyzer:
             colors = ['green' if v >= 80 else 'orange' if v >= 70 else 'red' for v in metrics_values]
             bars = axes[0,1].bar(metrics_names, metrics_values, color=colors, alpha=0.7)
             axes[0,1].set_title('Métricas de Performance (%)')
-            axes[0,1].set_ylim(0, 100)
+            axes[0,1].set_ylim(0, 105)
             axes[0,1].tick_params(axis='x', rotation=45)
+            axes[0,1].grid(True, alpha=0.3)
             
             # Adicionar valores nas barras
             for bar, value in zip(bars, metrics_values):
                 axes[0,1].text(bar.get_x() + bar.get_width()/2, bar.get_height() + 1,
-                              f'{value:.1f}%', ha='center', va='bottom')
+                              f'{value:.1f}%', ha='center', va='bottom', fontweight='bold')
             
             # 3. Distribuição de Tipos de Vídeo
             video_types = ['Quedas Reais', 'Vídeos ADL']
@@ -239,20 +240,34 @@ class CompletePrecisionAnalyzer:
                 fall_detected = len(fall_results[fall_results['fall_detected'] == True])
                 fall_missed = len(fall_results[fall_results['fall_detected'] == False])
                 
-                axes[1,0].bar(['Detectadas', 'Perdidas'], [fall_detected, fall_missed], 
+                bars_fall = axes[1,0].bar(['Detectadas', 'Perdidas'], [fall_detected, fall_missed], 
                              color=['green', 'red'], alpha=0.7)
                 axes[1,0].set_title('Quedas Reais: Detecção')
                 axes[1,0].set_ylabel('Número de Vídeos')
+                axes[1,0].grid(True, alpha=0.3)
+                
+                # Adicionar valores nas barras
+                for bar in bars_fall:
+                    height = bar.get_height()
+                    axes[1,0].text(bar.get_x() + bar.get_width()/2, height + 0.1,
+                                  f'{int(height)}', ha='center', va='bottom', fontweight='bold')
             
             # 5. Falsos Positivos em ADL
             if len(adl_results) > 0:
                 adl_correct = len(adl_results[adl_results['fall_detected'] == False])
                 adl_false_pos = len(adl_results[adl_results['fall_detected'] == True])
                 
-                axes[1,1].bar(['Corretos', 'Falsos Positivos'], [adl_correct, adl_false_pos], 
+                bars_adl = axes[1,1].bar(['Corretos', 'Falsos Positivos'], [adl_correct, adl_false_pos], 
                              color=['green', 'red'], alpha=0.7)
                 axes[1,1].set_title('Vídeos ADL: Especificidade')
                 axes[1,1].set_ylabel('Número de Vídeos')
+                axes[1,1].grid(True, alpha=0.3)
+                
+                # Adicionar valores nas barras
+                for bar in bars_adl:
+                    height = bar.get_height()
+                    axes[1,1].text(bar.get_x() + bar.get_width()/2, height + 0.1,
+                                  f'{int(height)}', ha='center', va='bottom', fontweight='bold')
             
             # 6. Tempos de Detecção
             detected_results = results[results['fall_detected'] == True]

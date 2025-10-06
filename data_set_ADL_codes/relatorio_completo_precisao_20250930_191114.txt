@@ -1,6 +1,6 @@
 RELATÓRIO COMPLETO DE PRECISÃO - SISTEMA DE DETECÇÃO DE QUEDAS
 ======================================================================
-Data/Hora: 30/09/2025 18:05:43
+Data/Hora: 30/09/2025 19:11:14
 
 RESUMO EXECUTIVO:
 Total de vídeos testados: 70
